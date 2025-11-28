@@ -7,6 +7,8 @@
 #include "Window.h"
 
 #include "InputEvent.h"
+#include <map>
+#include <queue>
 
 
 typedef void (*glfw_error_handler_function)(void* user_data, int error_code, const char* description);
@@ -24,6 +26,8 @@ static void globalErrorHandler(int error_code, const char* description) {
 struct InputEvents {
     InputEvent mouseDown, mouseUp, mouseMove, mouseDrag, keyDown, keyUp, scroll;
 };
+
+class Game;
 
 class Application {
 
@@ -60,6 +64,7 @@ public:
     Application();
     ~Application();
 
+	Game* game;
     std::map<int,std::queue<InputEvent>>& getInputEvents() { return inputEvent; }
     void pollInputEvent(InputEvents& event)
     {
@@ -75,8 +80,7 @@ public:
             inputEvent[6].size() ? inputEvent[6].back() : InputEvent()
         };
     }
-    SceneNode& getRoot() { return root; }
-    void render(RenderingEngine* renderingengine);
+    void render();
     void update(float deltatime);
     void handleInput(float deltatime);
     void popEvent();

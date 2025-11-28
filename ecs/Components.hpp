@@ -60,7 +60,7 @@ struct RenderableIcon
     glm::vec4 uvRect;
     glm::vec4 boundingBox;
     glm::vec4 renderRect;
-    bool visible = false;
+    bool visible;
 };
 
 struct DirtyComponent {};

@@ -6,11 +6,12 @@
 #ifndef ENGINE_H
 #define ENGINE_H
 #define FRAME_LIMIT 144
+#include "InputEvent.h"
+#include "Window.h"
 
 class Application;
 class FrameBuffer;
 class EventDispatcher;
-class Window;
 
 class Engine {
 

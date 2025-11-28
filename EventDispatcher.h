@@ -9,7 +9,6 @@
 #include <typeindex>
 #include <queue>
 #include <map>
-#include <any>
 
 
 class IEvent {

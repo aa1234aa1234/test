@@ -5,7 +5,7 @@
 #ifndef KEYDOWNEVENT_H
 #define KEYDOWNEVENT_H
 #include "EventHandler.h"
-
+#include "EventDispatcher.h"
 
 class KeydownEvent : public IEvent{
 

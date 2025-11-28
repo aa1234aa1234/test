@@ -3,11 +3,12 @@
 //
 
 #include "Engine.h"
+#include "Application.h"
+#include "FrameBuffer.h"
 
 #include "Input.h"
 #include "KeydownEvent.h"
 #include "MouseEvent.h"
-#include "TextHandler.h"
 
 int Engine::screenHeight, Engine::screenWidth;
 bool Engine::isRunning = false;
@@ -35,18 +36,18 @@ Engine::~Engine()
 void Engine::run()
 {
     float lastframe = 0.0;
-    int fps = TextHandler::getInstance()->addText(10, 10, "");
+    //int fps = TextHandler::getInstance()->addText(10, 10, "");
     float frames = 0;
     char buf[1024];
     while (isRunning)
     {
-        frameLimiter.begin();
+        //frameLimiter.begin();
         float currentFrame = glfwGetTime();
         deltatime = currentFrame - lastframe;
         lastframe = currentFrame;
 
         sprintf(buf, "FPS: %.1f", frames);
-        TextHandler::getInstance()->editText(1000, 860, buf, fps, 1.0);
+        //TextHandler::getInstance()->editText(1000, 860, buf, fps, 1.0);
 
         glfwPollEvents();
 
@@ -67,10 +68,6 @@ void Engine::run()
         handleInput(deltatime,event.mouseDrag);
         handleInput(deltatime,event.mouseMove);
         application->handleInput(deltatime);
-        if (editorMode)
-        {
-            editorLayer->update();
-        }
         application->update(deltatime);
         render(deltatime);
 
@@ -97,21 +94,8 @@ void Engine::render(float deltatime)
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
-    sceneBuffer->bind();
-    application->render(renderingEngine);
+    application->render();
 
-    if (editorMode)
-    {
-        sceneBuffer->unbind();
-    }
-
-    uiLayer->render();
-    if (editorMode)
-    {
-        editorLayer->render();
-        editorLayer->update();
-    }
-    TextHandler::getInstance()->draw();
 }
 
 void Engine::handleInput(float deltatime, InputEvent event)

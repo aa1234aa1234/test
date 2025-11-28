@@ -3,6 +3,7 @@
 //
 
 #include "Application.h"
+#include "Game.h"
 
 
 #include "KeydownEvent.h"
@@ -51,11 +52,12 @@ void Application::error_callback(void* user_data, int error, const char* descrip
     std::cerr << error << ' ' << description << '\n';
 }
 
-Application::Application() : root("rootNode")
+Application::Application()
 {
     //root.addSceneNode(node);
-
-
+	int width = 1200;
+	int height = 900;
+	game = new Game(width,height);
 }
 
 Application::~Application()
@@ -80,21 +82,21 @@ void Application::setCallBack(GLFWwindow* window)
     error_handler = errorHandler;
 }
 
-void Application::render(RenderingEngine* renderingengine)
+void Application::render()
 {
     //glClearColor(0.0, 1.0, 1.0,1.0);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    renderingengine->render(&root);
+	game->render();
 }
 
 void Application::handleInput(float deltatime)
 {
-    root.handleInput();
+    
 }
 
 void Application::update(float deltatime)
 {
-    root.update(deltatime);
+    game->update();
 }
 
 void Application::popEvent() {

@@ -3,6 +3,7 @@
 //
 #pragma once
 #ifndef INPUTEVENT_H
+#include <glm/glm.hpp>
 class InputEvent
 {
     int key;

@@ -5,7 +5,9 @@
 #ifndef PROJECT_ICONRENDERSYSTEM_H
 #define PROJECT_ICONRENDERSYSTEM_H
 #include "IconTextures.h"
-#include "stb/stb_image.h"
+#include "Shader.h"
+#include "Components.hpp"
+#include <stb/stb_image.h>
 
 class IconRenderSystem : public System {
     int width, height, textureWidth, textureHeight;
@@ -71,7 +73,7 @@ public:
 
         SystemCoordinator::getInstance()->SetSystemSignature<IconRenderSystem>(signature);
 
-    	ImportAtlas("resources/textures/atlas.png");
+    	ImportAtlas("resources/textures/minesweeperatlas.png");
     	instanceData.reserve(5000);
     	//shader->use();
 
