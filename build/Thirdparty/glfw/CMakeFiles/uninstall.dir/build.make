@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\user\Desktop\test\test
+CMAKE_SOURCE_DIR = C:\Users\sw_306\Desktop\testing\test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\user\Desktop\test\test\build
+CMAKE_BINARY_DIR = C:\Users\sw_306\Desktop\testing\test\build
 
 # Utility rule file for uninstall.
 
@@ -66,7 +66,7 @@ include Thirdparty/glfw/CMakeFiles/uninstall.dir/compiler_depend.make
 include Thirdparty/glfw/CMakeFiles/uninstall.dir/progress.make
 
 Thirdparty/glfw/CMakeFiles/uninstall:
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw && "C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/user/Desktop/test/test/build/Thirdparty/glfw/cmake_uninstall.cmake
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw && "C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/sw_306/Desktop/testing/test/build/Thirdparty/glfw/cmake_uninstall.cmake
 
 Thirdparty/glfw/CMakeFiles/uninstall.dir/codegen:
 .PHONY : Thirdparty/glfw/CMakeFiles/uninstall.dir/codegen
@@ -80,10 +80,10 @@ Thirdparty/glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : Thirdparty/glfw/CMakeFiles/uninstall.dir/build
 
 Thirdparty/glfw/CMakeFiles/uninstall.dir/clean:
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
 .PHONY : Thirdparty/glfw/CMakeFiles/uninstall.dir/clean
 
 Thirdparty/glfw/CMakeFiles/uninstall.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\user\Desktop\test\test C:\Users\user\Desktop\test\test\Thirdparty\glfw C:\Users\user\Desktop\test\test\build C:\Users\user\Desktop\test\test\build\Thirdparty\glfw C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\CMakeFiles\uninstall.dir\DependInfo.cmake "--color=$(COLOR)" uninstall
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\sw_306\Desktop\testing\test C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw C:\Users\sw_306\Desktop\testing\test\build C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\CMakeFiles\uninstall.dir\DependInfo.cmake "--color=$(COLOR)" uninstall
 .PHONY : Thirdparty/glfw/CMakeFiles/uninstall.dir/depend
 

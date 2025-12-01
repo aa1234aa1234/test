@@ -24,7 +24,7 @@ void Application::mouse_callback(GLFWwindow* window, int button, int action, int
     double xpos, ypos;
     glfwGetCursorPos(window, &xpos, &ypos);
     if (firstMouse) { lastMousePos = glm::vec2(xpos, ypos); firstMouse = false; }
-    InputEvent mouseEvent =InputEvent(glm::vec2(xpos,ypos), action == GLFW_RELEASE ? MouseEvent::MouseEventType::MOUSEUP : MouseEvent::MouseEventType::MOUSEDOWN);
+    InputEvent mouseEvent =InputEvent(glm::vec2(xpos,ypos), action == GLFW_RELEASE ? MouseEvent::MouseEventType::MOUSEUP : MouseEvent::MouseEventType::MOUSEDOWN, button);
     mouseEvent.setActive(true);
     inputEvent[mouseEvent.getEventType()].push(mouseEvent);
     if (action == GLFW_RELEASE) firstMouse = true;

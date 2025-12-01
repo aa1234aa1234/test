@@ -18,24 +18,24 @@ public:
     {
         Signature signature;
         signature.set(SystemCoordinator::getInstance()->GetComponentType<ClickableComponent>(), true);
-        signature.set(SystemCoordinator::getInstance()->GetComponentType<NonRenderableBoundingBox>(), true);
+        //signature.set(SystemCoordinator::getInstance()->GetComponentType<NonRenderableBoundingBox>(), true);
         SystemCoordinator::getInstance()->SetSystemSignature<ClickSystem>(signature);
     }
 
     void Update()
     {
-        if (!Input::getInstance()->getEventType()[Input::EventType::MOUSE_DOWN]) return;
+        if (!Input::getInstance()->getEventType()[Input::EventType::MOUSE_DOWN] && !Input::getInstance()->getEventType()[Input::EventType::MOUSE_DRAG] && !Input::getInstance()->getEventType()[Input::EventType::MOUSE_UP]) return;
 
         for (auto& p : entities)
         {
             glm::vec2 mousepos = Input::getInstance()->getMousePos();
             auto box = SystemCoordinator::getInstance()->GetComponent<ClickableComponent>(p);
-            SystemCoordinator::getInstance()->GetComponent<ClickableComponent>(p).onClick(p);
+            //SystemCoordinator::getInstance()->GetComponent<ClickableComponent>(p).onClick(p);
             if (mousepos.x >= box.boundingBox.x &&
-                mousepos.x <= box.boundingBox.x+box.boundingBox.z &&
+                mousepos.x < box.boundingBox.x+box.boundingBox.z &&
                 mousepos.y >= box.boundingBox.y &&
-                mousepos.y <= box.boundingBox.y+box.boundingBox.w) {
-                //SystemCoordinator::getInstance()->GetComponent<ClickableComponent>(p).onClick(p);
+                mousepos.y < box.boundingBox.y+box.boundingBox.w) {
+                SystemCoordinator::getInstance()->GetComponent<ClickableComponent>(p).onClick(p);
             }
         }
     }

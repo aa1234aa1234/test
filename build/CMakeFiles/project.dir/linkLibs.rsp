@@ -1,1 +1,1 @@
- Thirdparty/glfw/src/libglfw3.a -lopengl32 C:/Users/user/Desktop/test/test/Thirdparty/libs/libassimp.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ Thirdparty/glfw/src/libglfw3.a -lopengl32 C:/Users/sw_306/Desktop/testing/test/Thirdparty/libs/libassimp.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

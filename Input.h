@@ -10,6 +10,7 @@
 #include <glm/glm.hpp>
 #include <vector>
 #define LEFT_MOUSE_BUTTON 253
+#define RIGHT_MOUSE_BUTTON 254
 
 
 class Input {
@@ -19,6 +20,7 @@ class Input {
     static Input* instance;
     glm::vec2 mousepos;
     glm::vec2 mousedelta;
+	int mouseType=-1; //mouse button
     double xoffset, yoffset;
     std::unordered_map<unsigned int,bool> keydown;
     int event=-1;
@@ -45,10 +47,12 @@ public:
     std::unordered_map<unsigned int,bool> getKeyDown();
     glm::vec2 getMousePos();
     glm::vec2 getMouseDelta();
+	int getMouseType() { return mouseType; }
     void setMousePos(const float& x, const float& y);
     void setMouseDelta(const float& x, const float& y);
     void setMousePos(glm::vec2 pos) { mousepos = pos; }
     void setMouseDelta(glm::vec2 delta) { mousedelta = delta; }
+	void setMouseType(int mouseType) { this->mouseType = mouseType; }
     void setKeyDown(const unsigned int& key, bool down);
     bool isKeyDown(const unsigned int& key);
     void setXOffset(const double& x) { xoffset = x; }

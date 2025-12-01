@@ -10,6 +10,7 @@
 class MouseEvent : public IEvent {
     int id = -1;
     glm::vec2 mousePos, mouseOffset;
+	int mouseType=0;
 public:
     enum MouseEventType
     {
@@ -20,8 +21,8 @@ public:
     } eventType;
 
     MouseEvent() {}
-    MouseEvent(glm::vec2 mousePos, glm::vec2 mouseOffset, MouseEventType eventType) : mousePos(mousePos), mouseOffset(mouseOffset), eventType(eventType), id(eventType) {}
-    MouseEvent(glm::vec2 mousePos, MouseEventType eventType) : mousePos(mousePos), eventType(eventType), id(eventType) {}
+    MouseEvent(glm::vec2 mousePos, glm::vec2 mouseOffset, MouseEventType eventType, int mouseType = 0) : mousePos(mousePos), mouseOffset(mouseOffset), eventType(eventType), id(eventType), mouseType(mouseType) {}
+    MouseEvent(glm::vec2 mousePos, MouseEventType eventType, int mouseType = 0) : mousePos(mousePos), eventType(eventType), id(eventType), mouseType(mouseType) {}
     ~MouseEvent() {}
     const int getId() override
     {
@@ -36,6 +37,7 @@ public:
     glm::vec2 getMousePos() { return mousePos; }
     glm::vec2 getMouseOffset() { return mouseOffset; }
     MouseEventType getEventType() { return eventType; }
+	int getMouseType() { return mouseType; }
 };
 
 

@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\user\Desktop\test\test
+CMAKE_SOURCE_DIR = C:\Users\sw_306\Desktop\testing\test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\user\Desktop\test\test\build
+CMAKE_BINARY_DIR = C:\Users\sw_306\Desktop\testing\test\build
 
 # Include any dependencies generated for this target.
 include Thirdparty/glfw/src/CMakeFiles/glfw.dir/depend.make
@@ -73,318 +73,318 @@ Thirdparty/glfw/src/CMakeFiles/glfw.dir/codegen:
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/context.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/context.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj -MF CMakeFiles\glfw.dir\context.c.obj.d -o CMakeFiles\glfw.dir\context.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj -MF CMakeFiles\glfw.dir\context.c.obj.d -o CMakeFiles\glfw.dir\context.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\context.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/context.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\context.c > CMakeFiles\glfw.dir\context.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\context.c > CMakeFiles\glfw.dir\context.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/context.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\context.c -o CMakeFiles\glfw.dir\context.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\context.c -o CMakeFiles\glfw.dir\context.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/init.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/init.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj -MF CMakeFiles\glfw.dir\init.c.obj.d -o CMakeFiles\glfw.dir\init.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj -MF CMakeFiles\glfw.dir\init.c.obj.d -o CMakeFiles\glfw.dir\init.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\init.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/init.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\init.c > CMakeFiles\glfw.dir\init.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\init.c > CMakeFiles\glfw.dir\init.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/init.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\init.c -o CMakeFiles\glfw.dir\init.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\init.c -o CMakeFiles\glfw.dir\init.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/input.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/input.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj -MF CMakeFiles\glfw.dir\input.c.obj.d -o CMakeFiles\glfw.dir\input.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\input.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj -MF CMakeFiles\glfw.dir\input.c.obj.d -o CMakeFiles\glfw.dir\input.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\input.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/input.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\input.c > CMakeFiles\glfw.dir\input.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\input.c > CMakeFiles\glfw.dir\input.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/input.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\input.c -o CMakeFiles\glfw.dir\input.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\input.c -o CMakeFiles\glfw.dir\input.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/monitor.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/monitor.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj -MF CMakeFiles\glfw.dir\monitor.c.obj.d -o CMakeFiles\glfw.dir\monitor.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\monitor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj -MF CMakeFiles\glfw.dir\monitor.c.obj.d -o CMakeFiles\glfw.dir\monitor.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\monitor.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/monitor.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\monitor.c > CMakeFiles\glfw.dir\monitor.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\monitor.c > CMakeFiles\glfw.dir\monitor.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/monitor.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\monitor.c -o CMakeFiles\glfw.dir\monitor.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\monitor.c -o CMakeFiles\glfw.dir\monitor.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/platform.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/platform.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/platform.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/platform.c.obj -MF CMakeFiles\glfw.dir\platform.c.obj.d -o CMakeFiles\glfw.dir\platform.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\platform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/platform.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/platform.c.obj -MF CMakeFiles\glfw.dir\platform.c.obj.d -o CMakeFiles\glfw.dir\platform.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\platform.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/platform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/platform.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\platform.c > CMakeFiles\glfw.dir\platform.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\platform.c > CMakeFiles\glfw.dir\platform.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/platform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/platform.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\platform.c -o CMakeFiles\glfw.dir\platform.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\platform.c -o CMakeFiles\glfw.dir\platform.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/vulkan.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/vulkan.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj -MF CMakeFiles\glfw.dir\vulkan.c.obj.d -o CMakeFiles\glfw.dir\vulkan.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\vulkan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj -MF CMakeFiles\glfw.dir\vulkan.c.obj.d -o CMakeFiles\glfw.dir\vulkan.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\vulkan.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/vulkan.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\vulkan.c > CMakeFiles\glfw.dir\vulkan.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\vulkan.c > CMakeFiles\glfw.dir\vulkan.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/vulkan.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\vulkan.c -o CMakeFiles\glfw.dir\vulkan.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\vulkan.c -o CMakeFiles\glfw.dir\vulkan.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/window.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/window.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj -MF CMakeFiles\glfw.dir\window.c.obj.d -o CMakeFiles\glfw.dir\window.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj -MF CMakeFiles\glfw.dir\window.c.obj.d -o CMakeFiles\glfw.dir\window.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\window.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/window.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\window.c > CMakeFiles\glfw.dir\window.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\window.c > CMakeFiles\glfw.dir\window.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/window.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\window.c -o CMakeFiles\glfw.dir\window.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\window.c -o CMakeFiles\glfw.dir\window.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/egl_context.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/egl_context.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj -MF CMakeFiles\glfw.dir\egl_context.c.obj.d -o CMakeFiles\glfw.dir\egl_context.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\egl_context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj -MF CMakeFiles\glfw.dir\egl_context.c.obj.d -o CMakeFiles\glfw.dir\egl_context.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\egl_context.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/egl_context.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\egl_context.c > CMakeFiles\glfw.dir\egl_context.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\egl_context.c > CMakeFiles\glfw.dir\egl_context.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/egl_context.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\egl_context.c -o CMakeFiles\glfw.dir\egl_context.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\egl_context.c -o CMakeFiles\glfw.dir\egl_context.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/osmesa_context.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/osmesa_context.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj -MF CMakeFiles\glfw.dir\osmesa_context.c.obj.d -o CMakeFiles\glfw.dir\osmesa_context.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\osmesa_context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj -MF CMakeFiles\glfw.dir\osmesa_context.c.obj.d -o CMakeFiles\glfw.dir\osmesa_context.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\osmesa_context.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/osmesa_context.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\osmesa_context.c > CMakeFiles\glfw.dir\osmesa_context.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\osmesa_context.c > CMakeFiles\glfw.dir\osmesa_context.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/osmesa_context.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\osmesa_context.c -o CMakeFiles\glfw.dir\osmesa_context.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\osmesa_context.c -o CMakeFiles\glfw.dir\osmesa_context.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/null_init.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/null_init.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj -MF CMakeFiles\glfw.dir\null_init.c.obj.d -o CMakeFiles\glfw.dir\null_init.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\null_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj -MF CMakeFiles\glfw.dir\null_init.c.obj.d -o CMakeFiles\glfw.dir\null_init.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\null_init.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/null_init.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\null_init.c > CMakeFiles\glfw.dir\null_init.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\null_init.c > CMakeFiles\glfw.dir\null_init.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/null_init.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\null_init.c -o CMakeFiles\glfw.dir\null_init.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\null_init.c -o CMakeFiles\glfw.dir\null_init.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/null_monitor.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/null_monitor.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj -MF CMakeFiles\glfw.dir\null_monitor.c.obj.d -o CMakeFiles\glfw.dir\null_monitor.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\null_monitor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj -MF CMakeFiles\glfw.dir\null_monitor.c.obj.d -o CMakeFiles\glfw.dir\null_monitor.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\null_monitor.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/null_monitor.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\null_monitor.c > CMakeFiles\glfw.dir\null_monitor.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\null_monitor.c > CMakeFiles\glfw.dir\null_monitor.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/null_monitor.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\null_monitor.c -o CMakeFiles\glfw.dir\null_monitor.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\null_monitor.c -o CMakeFiles\glfw.dir\null_monitor.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/null_window.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/null_window.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj -MF CMakeFiles\glfw.dir\null_window.c.obj.d -o CMakeFiles\glfw.dir\null_window.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\null_window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj -MF CMakeFiles\glfw.dir\null_window.c.obj.d -o CMakeFiles\glfw.dir\null_window.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\null_window.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/null_window.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\null_window.c > CMakeFiles\glfw.dir\null_window.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\null_window.c > CMakeFiles\glfw.dir\null_window.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/null_window.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\null_window.c -o CMakeFiles\glfw.dir\null_window.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\null_window.c -o CMakeFiles\glfw.dir\null_window.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/null_joystick.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/null_joystick.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj -MF CMakeFiles\glfw.dir\null_joystick.c.obj.d -o CMakeFiles\glfw.dir\null_joystick.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\null_joystick.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj -MF CMakeFiles\glfw.dir\null_joystick.c.obj.d -o CMakeFiles\glfw.dir\null_joystick.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\null_joystick.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/null_joystick.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\null_joystick.c > CMakeFiles\glfw.dir\null_joystick.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\null_joystick.c > CMakeFiles\glfw.dir\null_joystick.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/null_joystick.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\null_joystick.c -o CMakeFiles\glfw.dir\null_joystick.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\null_joystick.c -o CMakeFiles\glfw.dir\null_joystick.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/win32_module.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/win32_module.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj -MF CMakeFiles\glfw.dir\win32_module.c.obj.d -o CMakeFiles\glfw.dir\win32_module.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj -MF CMakeFiles\glfw.dir\win32_module.c.obj.d -o CMakeFiles\glfw.dir\win32_module.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_module.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_module.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_module.c > CMakeFiles\glfw.dir\win32_module.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_module.c > CMakeFiles\glfw.dir\win32_module.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_module.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_module.c -o CMakeFiles\glfw.dir\win32_module.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_module.c -o CMakeFiles\glfw.dir\win32_module.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/win32_time.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/win32_time.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj -MF CMakeFiles\glfw.dir\win32_time.c.obj.d -o CMakeFiles\glfw.dir\win32_time.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj -MF CMakeFiles\glfw.dir\win32_time.c.obj.d -o CMakeFiles\glfw.dir\win32_time.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_time.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_time.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_time.c > CMakeFiles\glfw.dir\win32_time.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_time.c > CMakeFiles\glfw.dir\win32_time.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_time.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_time.c -o CMakeFiles\glfw.dir\win32_time.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_time.c -o CMakeFiles\glfw.dir\win32_time.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/win32_thread.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/win32_thread.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj -MF CMakeFiles\glfw.dir\win32_thread.c.obj.d -o CMakeFiles\glfw.dir\win32_thread.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_thread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj -MF CMakeFiles\glfw.dir\win32_thread.c.obj.d -o CMakeFiles\glfw.dir\win32_thread.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_thread.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_thread.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_thread.c > CMakeFiles\glfw.dir\win32_thread.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_thread.c > CMakeFiles\glfw.dir\win32_thread.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_thread.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_thread.c -o CMakeFiles\glfw.dir\win32_thread.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_thread.c -o CMakeFiles\glfw.dir\win32_thread.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/win32_init.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/win32_init.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj -MF CMakeFiles\glfw.dir\win32_init.c.obj.d -o CMakeFiles\glfw.dir\win32_init.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj -MF CMakeFiles\glfw.dir\win32_init.c.obj.d -o CMakeFiles\glfw.dir\win32_init.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_init.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_init.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_init.c > CMakeFiles\glfw.dir\win32_init.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_init.c > CMakeFiles\glfw.dir\win32_init.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_init.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_init.c -o CMakeFiles\glfw.dir\win32_init.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_init.c -o CMakeFiles\glfw.dir\win32_init.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/win32_joystick.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/win32_joystick.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj -MF CMakeFiles\glfw.dir\win32_joystick.c.obj.d -o CMakeFiles\glfw.dir\win32_joystick.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_joystick.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj -MF CMakeFiles\glfw.dir\win32_joystick.c.obj.d -o CMakeFiles\glfw.dir\win32_joystick.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_joystick.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_joystick.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_joystick.c > CMakeFiles\glfw.dir\win32_joystick.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_joystick.c > CMakeFiles\glfw.dir\win32_joystick.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_joystick.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_joystick.c -o CMakeFiles\glfw.dir\win32_joystick.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_joystick.c -o CMakeFiles\glfw.dir\win32_joystick.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/win32_monitor.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/win32_monitor.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj -MF CMakeFiles\glfw.dir\win32_monitor.c.obj.d -o CMakeFiles\glfw.dir\win32_monitor.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_monitor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj -MF CMakeFiles\glfw.dir\win32_monitor.c.obj.d -o CMakeFiles\glfw.dir\win32_monitor.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_monitor.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_monitor.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_monitor.c > CMakeFiles\glfw.dir\win32_monitor.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_monitor.c > CMakeFiles\glfw.dir\win32_monitor.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_monitor.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_monitor.c -o CMakeFiles\glfw.dir\win32_monitor.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_monitor.c -o CMakeFiles\glfw.dir\win32_monitor.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/win32_window.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/win32_window.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj -MF CMakeFiles\glfw.dir\win32_window.c.obj.d -o CMakeFiles\glfw.dir\win32_window.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj -MF CMakeFiles\glfw.dir\win32_window.c.obj.d -o CMakeFiles\glfw.dir\win32_window.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_window.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_window.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_window.c > CMakeFiles\glfw.dir\win32_window.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_window.c > CMakeFiles\glfw.dir\win32_window.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_window.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\win32_window.c -o CMakeFiles\glfw.dir\win32_window.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\win32_window.c -o CMakeFiles\glfw.dir\win32_window.c.s
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-Thirdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/glfw/src/wgl_context.c
+Thirdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/src/wgl_context.c
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: Thirdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj -MF CMakeFiles\glfw.dir\wgl_context.c.obj.d -o CMakeFiles\glfw.dir\wgl_context.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\wgl_context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object Thirdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Thirdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj -MF CMakeFiles\glfw.dir\wgl_context.c.obj.d -o CMakeFiles\glfw.dir\wgl_context.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\wgl_context.c
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/wgl_context.c.i"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\wgl_context.c > CMakeFiles\glfw.dir\wgl_context.c.i
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\wgl_context.c > CMakeFiles\glfw.dir\wgl_context.c.i
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/wgl_context.c.s"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\glfw\src\wgl_context.c -o CMakeFiles\glfw.dir\wgl_context.c.s
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src\wgl_context.c -o CMakeFiles\glfw.dir\wgl_context.c.s
 
 # Object files for target glfw
 glfw_OBJECTS = \
@@ -436,19 +436,19 @@ Thirdparty/glfw/src/libglfw3.a: Thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_wi
 Thirdparty/glfw/src/libglfw3.a: Thirdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj
 Thirdparty/glfw/src/libglfw3.a: Thirdparty/glfw/src/CMakeFiles/glfw.dir/build.make
 Thirdparty/glfw/src/libglfw3.a: Thirdparty/glfw/src/CMakeFiles/glfw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C static library libglfw3.a"
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean_target.cmake
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glfw.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C static library libglfw3.a"
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean_target.cmake
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glfw.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/build: Thirdparty/glfw/src/libglfw3.a
 .PHONY : Thirdparty/glfw/src/CMakeFiles/glfw.dir/build
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/clean:
-	cd /d C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean.cmake
+	cd /d C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean.cmake
 .PHONY : Thirdparty/glfw/src/CMakeFiles/glfw.dir/clean
 
 Thirdparty/glfw/src/CMakeFiles/glfw.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\user\Desktop\test\test C:\Users\user\Desktop\test\test\Thirdparty\glfw\src C:\Users\user\Desktop\test\test\build C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\src\CMakeFiles\glfw.dir\DependInfo.cmake "--color=$(COLOR)" glfw
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\sw_306\Desktop\testing\test C:\Users\sw_306\Desktop\testing\test\Thirdparty\glfw\src C:\Users\sw_306\Desktop\testing\test\build C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\src\CMakeFiles\glfw.dir\DependInfo.cmake "--color=$(COLOR)" glfw
 .PHONY : Thirdparty/glfw/src/CMakeFiles/glfw.dir/depend
 

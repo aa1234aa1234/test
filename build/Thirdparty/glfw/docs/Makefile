@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\user\Desktop\test\test
+CMAKE_SOURCE_DIR = C:\Users\sw_306\Desktop\testing\test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\user\Desktop\test\test\build
+CMAKE_BINARY_DIR = C:\Users\sw_306\Desktop\testing\test\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,21 +131,21 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\user\Desktop\test\test\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Desktop\test\test\build\CMakeFiles C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\docs\\CMakeFiles\progress.marks
-	cd /d C:\Users\user\Desktop\test\test\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Thirdparty/glfw/docs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Desktop\test\test\build\CMakeFiles 0
+	cd /d C:\Users\sw_306\Desktop\testing\test\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\docs\\CMakeFiles\progress.marks
+	cd /d C:\Users\sw_306\Desktop\testing\test\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Thirdparty/glfw/docs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles 0
 .PHONY : all
 
 # The main codegen target
 codegen: cmake_check_build_system
-	cd /d C:\Users\user\Desktop\test\test\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Desktop\test\test\build\CMakeFiles C:\Users\user\Desktop\test\test\build\Thirdparty\glfw\docs\\CMakeFiles\progress.marks
-	cd /d C:\Users\user\Desktop\test\test\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Thirdparty/glfw/docs/codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Desktop\test\test\build\CMakeFiles 0
+	cd /d C:\Users\sw_306\Desktop\testing\test\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles C:\Users\sw_306\Desktop\testing\test\build\Thirdparty\glfw\docs\\CMakeFiles\progress.marks
+	cd /d C:\Users\sw_306\Desktop\testing\test\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Thirdparty/glfw/docs/codegen
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles 0
 .PHONY : codegen
 
 # The main clean target
 clean:
-	cd /d C:\Users\user\Desktop\test\test\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Thirdparty/glfw/docs/clean
+	cd /d C:\Users\sw_306\Desktop\testing\test\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Thirdparty/glfw/docs/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +154,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\user\Desktop\test\test\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Thirdparty/glfw/docs/preinstall
+	cd /d C:\Users\sw_306\Desktop\testing\test\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Thirdparty/glfw/docs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\user\Desktop\test\test\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Thirdparty/glfw/docs/preinstall
+	cd /d C:\Users\sw_306\Desktop\testing\test\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Thirdparty/glfw/docs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\user\Desktop\test\test\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\sw_306\Desktop\testing\test\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -191,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\user\Desktop\test\test\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\sw_306\Desktop\testing\test\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

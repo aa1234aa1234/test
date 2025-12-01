@@ -61,13 +61,13 @@ void Engine::run()
         application->pollInputEvent(event);
 
         //------------           please refactor this holy shit           ---------------------
-        handleInput(deltatime,event.keyDown);
-        handleInput(deltatime,event.keyUp);
-        handleInput(deltatime,event.scroll);
+        // handleInput(deltatime,event.keyDown);
+        // handleInput(deltatime,event.keyUp);
+        // handleInput(deltatime,event.scroll);
         handleInput(deltatime,event.mouseDown);
-        handleInput(deltatime,event.mouseUp);
-        handleInput(deltatime,event.mouseDrag);
-        handleInput(deltatime,event.mouseMove);
+        // handleInput(deltatime,event.mouseUp);
+        // handleInput(deltatime,event.mouseDrag);
+        // handleInput(deltatime,event.mouseMove);
         application->handleInput(deltatime);
         application->update(deltatime);
         render(deltatime);
@@ -101,17 +101,20 @@ void Engine::render(float deltatime)
 
 void Engine::handleInput(float deltatime, InputEvent event)
 {
-    if (event.getEventType() != -1) Input::getInstance()->setEvent(event.getEventType());
+    if (event.getEventType() != -1) {
+		Input::getInstance()->setEvent(event.getEventType());
+	}
     switch (event.getEventType())
     {
     case Input::EventType::MOUSE_DOWN:
         {
             Input::getInstance()->setEventType(Input::EventType::MOUSE_DOWN, event.isActive());
             Input::getInstance()->setMousePos(event.getMousePos());
-            Input::getInstance()->setKeyDown(LEFT_MOUSE_BUTTON, event.isActive());
+            Input::getInstance()->setKeyDown(LEFT_MOUSE_BUTTON + event.getMouseType(), event.isActive());
+			Input::getInstance()->setMouseType(event.getMouseType());
             if (event.isActive())
             {
-                MouseEvent mouseEvent = MouseEvent(event.getMousePos(), event.getMouseDelta(), MouseEvent::MouseEventType::MOUSEDOWN);
+                MouseEvent mouseEvent = MouseEvent(event.getMousePos(), event.getMouseDelta(), MouseEvent::MouseEventType::MOUSEDOWN, event.getMouseType());
                 eventDispatcher->dispatchEvent(mouseEvent);
             }
 
@@ -121,13 +124,14 @@ void Engine::handleInput(float deltatime, InputEvent event)
         {
             if (event.isActive())
             {
-                MouseEvent mouseEvent = MouseEvent(event.getMousePos(), MouseEvent::MouseEventType::MOUSEUP);
+                MouseEvent mouseEvent = MouseEvent(event.getMousePos(), MouseEvent::MouseEventType::MOUSEUP, event.getMouseType());
                 eventDispatcher->dispatchEvent(mouseEvent);
             }
 
             Input::getInstance()->setEventType(Input::EventType::MOUSE_UP, event.isActive());
             Input::getInstance()->setMousePos(event.getMousePos());
-            Input::getInstance()->setKeyDown(LEFT_MOUSE_BUTTON, !event.isActive());
+			Input::getInstance()->setMouseType(event.getMouseType());
+            Input::getInstance()->setKeyDown(LEFT_MOUSE_BUTTON + event.getMouseType(), !event.isActive());
         }
         break;
     case Input::EventType::MOUSE_MOVE:
@@ -148,7 +152,7 @@ void Engine::handleInput(float deltatime, InputEvent event)
         {
             if (event.isActive())
             {
-                MouseEvent mouseEvent = MouseEvent(event.getMousePos(), event.getMouseDelta(), MouseEvent::MouseEventType::MOUSEDRAG);
+                MouseEvent mouseEvent = MouseEvent(event.getMousePos(), event.getMouseDelta(), MouseEvent::MouseEventType::MOUSEDRAG, event.getMouseType());
                 eventDispatcher->dispatchEvent(mouseEvent);
             }
 

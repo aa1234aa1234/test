@@ -4,10 +4,25 @@
 #include "ClickSystem.h"
 #define CELL_SIZE 35
 
+
+struct CellComponent {
+	int tileid = 0;
+	bool isRevealed = false;
+};
+
 class Game {
 	EntityID cells[30][16];
 	IconRenderSystem* iconrenderer;
 	ClickSystem* clicksystem;
+	glm::vec2 lastclick;
+
+	enum TileInfo {
+		DEFAULT,
+		NONE,
+		BOMB,
+		FLAG,
+		NUM
+	};
 public:
 	Game(int& width, int& height) {
 		SystemCoordinator::getInstance()->RegisterComponent<TransformComponent>();
@@ -24,6 +39,7 @@ public:
     	SystemCoordinator::getInstance()->RegisterComponent<TextureComponent>();
     	SystemCoordinator::getInstance()->RegisterComponent<NonRenderableBoundingBox>();
     	SystemCoordinator::getInstance()->RegisterComponent<HandleInput>();
+		SystemCoordinator::getInstance()->RegisterComponent<CellComponent>();
 
 		iconrenderer = SystemCoordinator::getInstance()->RegisterSystem<IconRenderSystem>();
 		clicksystem = SystemCoordinator::getInstance()->RegisterSystem<ClickSystem>();
@@ -39,5 +55,7 @@ public:
 	void Initialize();
 	void update();
 	void render();
+	void revealCells(int x, int y);
 	void checkCells(int x, int y);
+	void setFlag(int x, int y);
 };

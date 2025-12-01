@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\user\Desktop\test\test
+CMAKE_SOURCE_DIR = C:\Users\sw_306\Desktop\testing\test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\user\Desktop\test\test\build
+CMAKE_BINARY_DIR = C:\Users\sw_306\Desktop\testing\test\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/project.dir/depend.make
@@ -73,213 +73,213 @@ CMakeFiles/project.dir/codegen:
 
 CMakeFiles/project.dir/Application.cpp.obj: CMakeFiles/project.dir/flags.make
 CMakeFiles/project.dir/Application.cpp.obj: CMakeFiles/project.dir/includes_CXX.rsp
-CMakeFiles/project.dir/Application.cpp.obj: C:/Users/user/Desktop/test/test/Application.cpp
+CMakeFiles/project.dir/Application.cpp.obj: C:/Users/sw_306/Desktop/testing/test/Application.cpp
 CMakeFiles/project.dir/Application.cpp.obj: CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project.dir/Application.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/Application.cpp.obj -MF CMakeFiles\project.dir\Application.cpp.obj.d -o CMakeFiles\project.dir\Application.cpp.obj -c C:\Users\user\Desktop\test\test\Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project.dir/Application.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/Application.cpp.obj -MF CMakeFiles\project.dir\Application.cpp.obj.d -o CMakeFiles\project.dir\Application.cpp.obj -c C:\Users\sw_306\Desktop\testing\test\Application.cpp
 
 CMakeFiles/project.dir/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project.dir/Application.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\test\test\Application.cpp > CMakeFiles\project.dir\Application.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Application.cpp > CMakeFiles\project.dir\Application.cpp.i
 
 CMakeFiles/project.dir/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project.dir/Application.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\test\test\Application.cpp -o CMakeFiles\project.dir\Application.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Application.cpp -o CMakeFiles\project.dir\Application.cpp.s
 
 CMakeFiles/project.dir/Camera.cpp.obj: CMakeFiles/project.dir/flags.make
 CMakeFiles/project.dir/Camera.cpp.obj: CMakeFiles/project.dir/includes_CXX.rsp
-CMakeFiles/project.dir/Camera.cpp.obj: C:/Users/user/Desktop/test/test/Camera.cpp
+CMakeFiles/project.dir/Camera.cpp.obj: C:/Users/sw_306/Desktop/testing/test/Camera.cpp
 CMakeFiles/project.dir/Camera.cpp.obj: CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project.dir/Camera.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/Camera.cpp.obj -MF CMakeFiles\project.dir\Camera.cpp.obj.d -o CMakeFiles\project.dir\Camera.cpp.obj -c C:\Users\user\Desktop\test\test\Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project.dir/Camera.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/Camera.cpp.obj -MF CMakeFiles\project.dir\Camera.cpp.obj.d -o CMakeFiles\project.dir\Camera.cpp.obj -c C:\Users\sw_306\Desktop\testing\test\Camera.cpp
 
 CMakeFiles/project.dir/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project.dir/Camera.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\test\test\Camera.cpp > CMakeFiles\project.dir\Camera.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Camera.cpp > CMakeFiles\project.dir\Camera.cpp.i
 
 CMakeFiles/project.dir/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project.dir/Camera.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\test\test\Camera.cpp -o CMakeFiles\project.dir\Camera.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Camera.cpp -o CMakeFiles\project.dir\Camera.cpp.s
 
 CMakeFiles/project.dir/Engine.cpp.obj: CMakeFiles/project.dir/flags.make
 CMakeFiles/project.dir/Engine.cpp.obj: CMakeFiles/project.dir/includes_CXX.rsp
-CMakeFiles/project.dir/Engine.cpp.obj: C:/Users/user/Desktop/test/test/Engine.cpp
+CMakeFiles/project.dir/Engine.cpp.obj: C:/Users/sw_306/Desktop/testing/test/Engine.cpp
 CMakeFiles/project.dir/Engine.cpp.obj: CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/project.dir/Engine.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/Engine.cpp.obj -MF CMakeFiles\project.dir\Engine.cpp.obj.d -o CMakeFiles\project.dir\Engine.cpp.obj -c C:\Users\user\Desktop\test\test\Engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/project.dir/Engine.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/Engine.cpp.obj -MF CMakeFiles\project.dir\Engine.cpp.obj.d -o CMakeFiles\project.dir\Engine.cpp.obj -c C:\Users\sw_306\Desktop\testing\test\Engine.cpp
 
 CMakeFiles/project.dir/Engine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project.dir/Engine.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\test\test\Engine.cpp > CMakeFiles\project.dir\Engine.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Engine.cpp > CMakeFiles\project.dir\Engine.cpp.i
 
 CMakeFiles/project.dir/Engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project.dir/Engine.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\test\test\Engine.cpp -o CMakeFiles\project.dir\Engine.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Engine.cpp -o CMakeFiles\project.dir\Engine.cpp.s
 
 CMakeFiles/project.dir/EventHandler.cpp.obj: CMakeFiles/project.dir/flags.make
 CMakeFiles/project.dir/EventHandler.cpp.obj: CMakeFiles/project.dir/includes_CXX.rsp
-CMakeFiles/project.dir/EventHandler.cpp.obj: C:/Users/user/Desktop/test/test/EventHandler.cpp
+CMakeFiles/project.dir/EventHandler.cpp.obj: C:/Users/sw_306/Desktop/testing/test/EventHandler.cpp
 CMakeFiles/project.dir/EventHandler.cpp.obj: CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/project.dir/EventHandler.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/EventHandler.cpp.obj -MF CMakeFiles\project.dir\EventHandler.cpp.obj.d -o CMakeFiles\project.dir\EventHandler.cpp.obj -c C:\Users\user\Desktop\test\test\EventHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/project.dir/EventHandler.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/EventHandler.cpp.obj -MF CMakeFiles\project.dir\EventHandler.cpp.obj.d -o CMakeFiles\project.dir\EventHandler.cpp.obj -c C:\Users\sw_306\Desktop\testing\test\EventHandler.cpp
 
 CMakeFiles/project.dir/EventHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project.dir/EventHandler.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\test\test\EventHandler.cpp > CMakeFiles\project.dir\EventHandler.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\EventHandler.cpp > CMakeFiles\project.dir\EventHandler.cpp.i
 
 CMakeFiles/project.dir/EventHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project.dir/EventHandler.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\test\test\EventHandler.cpp -o CMakeFiles\project.dir\EventHandler.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\EventHandler.cpp -o CMakeFiles\project.dir\EventHandler.cpp.s
 
 CMakeFiles/project.dir/FrameBuffer.cpp.obj: CMakeFiles/project.dir/flags.make
 CMakeFiles/project.dir/FrameBuffer.cpp.obj: CMakeFiles/project.dir/includes_CXX.rsp
-CMakeFiles/project.dir/FrameBuffer.cpp.obj: C:/Users/user/Desktop/test/test/FrameBuffer.cpp
+CMakeFiles/project.dir/FrameBuffer.cpp.obj: C:/Users/sw_306/Desktop/testing/test/FrameBuffer.cpp
 CMakeFiles/project.dir/FrameBuffer.cpp.obj: CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/project.dir/FrameBuffer.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/FrameBuffer.cpp.obj -MF CMakeFiles\project.dir\FrameBuffer.cpp.obj.d -o CMakeFiles\project.dir\FrameBuffer.cpp.obj -c C:\Users\user\Desktop\test\test\FrameBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/project.dir/FrameBuffer.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/FrameBuffer.cpp.obj -MF CMakeFiles\project.dir\FrameBuffer.cpp.obj.d -o CMakeFiles\project.dir\FrameBuffer.cpp.obj -c C:\Users\sw_306\Desktop\testing\test\FrameBuffer.cpp
 
 CMakeFiles/project.dir/FrameBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project.dir/FrameBuffer.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\test\test\FrameBuffer.cpp > CMakeFiles\project.dir\FrameBuffer.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\FrameBuffer.cpp > CMakeFiles\project.dir\FrameBuffer.cpp.i
 
 CMakeFiles/project.dir/FrameBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project.dir/FrameBuffer.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\test\test\FrameBuffer.cpp -o CMakeFiles\project.dir\FrameBuffer.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\FrameBuffer.cpp -o CMakeFiles\project.dir\FrameBuffer.cpp.s
 
 CMakeFiles/project.dir/Game.cpp.obj: CMakeFiles/project.dir/flags.make
 CMakeFiles/project.dir/Game.cpp.obj: CMakeFiles/project.dir/includes_CXX.rsp
-CMakeFiles/project.dir/Game.cpp.obj: C:/Users/user/Desktop/test/test/Game.cpp
+CMakeFiles/project.dir/Game.cpp.obj: C:/Users/sw_306/Desktop/testing/test/Game.cpp
 CMakeFiles/project.dir/Game.cpp.obj: CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/project.dir/Game.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/Game.cpp.obj -MF CMakeFiles\project.dir\Game.cpp.obj.d -o CMakeFiles\project.dir\Game.cpp.obj -c C:\Users\user\Desktop\test\test\Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/project.dir/Game.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/Game.cpp.obj -MF CMakeFiles\project.dir\Game.cpp.obj.d -o CMakeFiles\project.dir\Game.cpp.obj -c C:\Users\sw_306\Desktop\testing\test\Game.cpp
 
 CMakeFiles/project.dir/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project.dir/Game.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\test\test\Game.cpp > CMakeFiles\project.dir\Game.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Game.cpp > CMakeFiles\project.dir\Game.cpp.i
 
 CMakeFiles/project.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project.dir/Game.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\test\test\Game.cpp -o CMakeFiles\project.dir\Game.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Game.cpp -o CMakeFiles\project.dir\Game.cpp.s
 
 CMakeFiles/project.dir/Input.cpp.obj: CMakeFiles/project.dir/flags.make
 CMakeFiles/project.dir/Input.cpp.obj: CMakeFiles/project.dir/includes_CXX.rsp
-CMakeFiles/project.dir/Input.cpp.obj: C:/Users/user/Desktop/test/test/Input.cpp
+CMakeFiles/project.dir/Input.cpp.obj: C:/Users/sw_306/Desktop/testing/test/Input.cpp
 CMakeFiles/project.dir/Input.cpp.obj: CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/project.dir/Input.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/Input.cpp.obj -MF CMakeFiles\project.dir\Input.cpp.obj.d -o CMakeFiles\project.dir\Input.cpp.obj -c C:\Users\user\Desktop\test\test\Input.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/project.dir/Input.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/Input.cpp.obj -MF CMakeFiles\project.dir\Input.cpp.obj.d -o CMakeFiles\project.dir\Input.cpp.obj -c C:\Users\sw_306\Desktop\testing\test\Input.cpp
 
 CMakeFiles/project.dir/Input.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project.dir/Input.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\test\test\Input.cpp > CMakeFiles\project.dir\Input.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Input.cpp > CMakeFiles\project.dir\Input.cpp.i
 
 CMakeFiles/project.dir/Input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project.dir/Input.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\test\test\Input.cpp -o CMakeFiles\project.dir\Input.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Input.cpp -o CMakeFiles\project.dir\Input.cpp.s
 
 CMakeFiles/project.dir/Shader.cpp.obj: CMakeFiles/project.dir/flags.make
 CMakeFiles/project.dir/Shader.cpp.obj: CMakeFiles/project.dir/includes_CXX.rsp
-CMakeFiles/project.dir/Shader.cpp.obj: C:/Users/user/Desktop/test/test/Shader.cpp
+CMakeFiles/project.dir/Shader.cpp.obj: C:/Users/sw_306/Desktop/testing/test/Shader.cpp
 CMakeFiles/project.dir/Shader.cpp.obj: CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/project.dir/Shader.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/Shader.cpp.obj -MF CMakeFiles\project.dir\Shader.cpp.obj.d -o CMakeFiles\project.dir\Shader.cpp.obj -c C:\Users\user\Desktop\test\test\Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/project.dir/Shader.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/Shader.cpp.obj -MF CMakeFiles\project.dir\Shader.cpp.obj.d -o CMakeFiles\project.dir\Shader.cpp.obj -c C:\Users\sw_306\Desktop\testing\test\Shader.cpp
 
 CMakeFiles/project.dir/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project.dir/Shader.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\test\test\Shader.cpp > CMakeFiles\project.dir\Shader.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Shader.cpp > CMakeFiles\project.dir\Shader.cpp.i
 
 CMakeFiles/project.dir/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project.dir/Shader.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\test\test\Shader.cpp -o CMakeFiles\project.dir\Shader.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Shader.cpp -o CMakeFiles\project.dir\Shader.cpp.s
 
 CMakeFiles/project.dir/Texture.cpp.obj: CMakeFiles/project.dir/flags.make
 CMakeFiles/project.dir/Texture.cpp.obj: CMakeFiles/project.dir/includes_CXX.rsp
-CMakeFiles/project.dir/Texture.cpp.obj: C:/Users/user/Desktop/test/test/Texture.cpp
+CMakeFiles/project.dir/Texture.cpp.obj: C:/Users/sw_306/Desktop/testing/test/Texture.cpp
 CMakeFiles/project.dir/Texture.cpp.obj: CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/project.dir/Texture.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/Texture.cpp.obj -MF CMakeFiles\project.dir\Texture.cpp.obj.d -o CMakeFiles\project.dir\Texture.cpp.obj -c C:\Users\user\Desktop\test\test\Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/project.dir/Texture.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/Texture.cpp.obj -MF CMakeFiles\project.dir\Texture.cpp.obj.d -o CMakeFiles\project.dir\Texture.cpp.obj -c C:\Users\sw_306\Desktop\testing\test\Texture.cpp
 
 CMakeFiles/project.dir/Texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project.dir/Texture.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\test\test\Texture.cpp > CMakeFiles\project.dir\Texture.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Texture.cpp > CMakeFiles\project.dir\Texture.cpp.i
 
 CMakeFiles/project.dir/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project.dir/Texture.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\test\test\Texture.cpp -o CMakeFiles\project.dir\Texture.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Texture.cpp -o CMakeFiles\project.dir\Texture.cpp.s
 
 CMakeFiles/project.dir/Window.cpp.obj: CMakeFiles/project.dir/flags.make
 CMakeFiles/project.dir/Window.cpp.obj: CMakeFiles/project.dir/includes_CXX.rsp
-CMakeFiles/project.dir/Window.cpp.obj: C:/Users/user/Desktop/test/test/Window.cpp
+CMakeFiles/project.dir/Window.cpp.obj: C:/Users/sw_306/Desktop/testing/test/Window.cpp
 CMakeFiles/project.dir/Window.cpp.obj: CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/project.dir/Window.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/Window.cpp.obj -MF CMakeFiles\project.dir\Window.cpp.obj.d -o CMakeFiles\project.dir\Window.cpp.obj -c C:\Users\user\Desktop\test\test\Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/project.dir/Window.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/Window.cpp.obj -MF CMakeFiles\project.dir\Window.cpp.obj.d -o CMakeFiles\project.dir\Window.cpp.obj -c C:\Users\sw_306\Desktop\testing\test\Window.cpp
 
 CMakeFiles/project.dir/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project.dir/Window.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\test\test\Window.cpp > CMakeFiles\project.dir\Window.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Window.cpp > CMakeFiles\project.dir\Window.cpp.i
 
 CMakeFiles/project.dir/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project.dir/Window.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\test\test\Window.cpp -o CMakeFiles\project.dir\Window.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Window.cpp -o CMakeFiles\project.dir\Window.cpp.s
 
 CMakeFiles/project.dir/ecs/Entity.cpp.obj: CMakeFiles/project.dir/flags.make
 CMakeFiles/project.dir/ecs/Entity.cpp.obj: CMakeFiles/project.dir/includes_CXX.rsp
-CMakeFiles/project.dir/ecs/Entity.cpp.obj: C:/Users/user/Desktop/test/test/ecs/Entity.cpp
+CMakeFiles/project.dir/ecs/Entity.cpp.obj: C:/Users/sw_306/Desktop/testing/test/ecs/Entity.cpp
 CMakeFiles/project.dir/ecs/Entity.cpp.obj: CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/project.dir/ecs/Entity.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/ecs/Entity.cpp.obj -MF CMakeFiles\project.dir\ecs\Entity.cpp.obj.d -o CMakeFiles\project.dir\ecs\Entity.cpp.obj -c C:\Users\user\Desktop\test\test\ecs\Entity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/project.dir/ecs/Entity.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/ecs/Entity.cpp.obj -MF CMakeFiles\project.dir\ecs\Entity.cpp.obj.d -o CMakeFiles\project.dir\ecs\Entity.cpp.obj -c C:\Users\sw_306\Desktop\testing\test\ecs\Entity.cpp
 
 CMakeFiles/project.dir/ecs/Entity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project.dir/ecs/Entity.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\test\test\ecs\Entity.cpp > CMakeFiles\project.dir\ecs\Entity.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\ecs\Entity.cpp > CMakeFiles\project.dir\ecs\Entity.cpp.i
 
 CMakeFiles/project.dir/ecs/Entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project.dir/ecs/Entity.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\test\test\ecs\Entity.cpp -o CMakeFiles\project.dir\ecs\Entity.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\ecs\Entity.cpp -o CMakeFiles\project.dir\ecs\Entity.cpp.s
 
 CMakeFiles/project.dir/ecs/SystemCoordinator.cpp.obj: CMakeFiles/project.dir/flags.make
 CMakeFiles/project.dir/ecs/SystemCoordinator.cpp.obj: CMakeFiles/project.dir/includes_CXX.rsp
-CMakeFiles/project.dir/ecs/SystemCoordinator.cpp.obj: C:/Users/user/Desktop/test/test/ecs/SystemCoordinator.cpp
+CMakeFiles/project.dir/ecs/SystemCoordinator.cpp.obj: C:/Users/sw_306/Desktop/testing/test/ecs/SystemCoordinator.cpp
 CMakeFiles/project.dir/ecs/SystemCoordinator.cpp.obj: CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/project.dir/ecs/SystemCoordinator.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/ecs/SystemCoordinator.cpp.obj -MF CMakeFiles\project.dir\ecs\SystemCoordinator.cpp.obj.d -o CMakeFiles\project.dir\ecs\SystemCoordinator.cpp.obj -c C:\Users\user\Desktop\test\test\ecs\SystemCoordinator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/project.dir/ecs/SystemCoordinator.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/ecs/SystemCoordinator.cpp.obj -MF CMakeFiles\project.dir\ecs\SystemCoordinator.cpp.obj.d -o CMakeFiles\project.dir\ecs\SystemCoordinator.cpp.obj -c C:\Users\sw_306\Desktop\testing\test\ecs\SystemCoordinator.cpp
 
 CMakeFiles/project.dir/ecs/SystemCoordinator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project.dir/ecs/SystemCoordinator.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\test\test\ecs\SystemCoordinator.cpp > CMakeFiles\project.dir\ecs\SystemCoordinator.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\ecs\SystemCoordinator.cpp > CMakeFiles\project.dir\ecs\SystemCoordinator.cpp.i
 
 CMakeFiles/project.dir/ecs/SystemCoordinator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project.dir/ecs/SystemCoordinator.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\test\test\ecs\SystemCoordinator.cpp -o CMakeFiles\project.dir\ecs\SystemCoordinator.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\ecs\SystemCoordinator.cpp -o CMakeFiles\project.dir\ecs\SystemCoordinator.cpp.s
 
 CMakeFiles/project.dir/test/testing.cpp.obj: CMakeFiles/project.dir/flags.make
 CMakeFiles/project.dir/test/testing.cpp.obj: CMakeFiles/project.dir/includes_CXX.rsp
-CMakeFiles/project.dir/test/testing.cpp.obj: C:/Users/user/Desktop/test/test/test/testing.cpp
+CMakeFiles/project.dir/test/testing.cpp.obj: C:/Users/sw_306/Desktop/testing/test/test/testing.cpp
 CMakeFiles/project.dir/test/testing.cpp.obj: CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/project.dir/test/testing.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/test/testing.cpp.obj -MF CMakeFiles\project.dir\test\testing.cpp.obj.d -o CMakeFiles\project.dir\test\testing.cpp.obj -c C:\Users\user\Desktop\test\test\test\testing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/project.dir/test/testing.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/test/testing.cpp.obj -MF CMakeFiles\project.dir\test\testing.cpp.obj.d -o CMakeFiles\project.dir\test\testing.cpp.obj -c C:\Users\sw_306\Desktop\testing\test\test\testing.cpp
 
 CMakeFiles/project.dir/test/testing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project.dir/test/testing.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\test\test\test\testing.cpp > CMakeFiles\project.dir\test\testing.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\test\testing.cpp > CMakeFiles\project.dir\test\testing.cpp.i
 
 CMakeFiles/project.dir/test/testing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project.dir/test/testing.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\test\test\test\testing.cpp -o CMakeFiles\project.dir\test\testing.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\test\testing.cpp -o CMakeFiles\project.dir\test\testing.cpp.s
 
 CMakeFiles/project.dir/Thirdparty/src/gl.c.obj: CMakeFiles/project.dir/flags.make
 CMakeFiles/project.dir/Thirdparty/src/gl.c.obj: CMakeFiles/project.dir/includes_C.rsp
-CMakeFiles/project.dir/Thirdparty/src/gl.c.obj: C:/Users/user/Desktop/test/test/Thirdparty/src/gl.c
+CMakeFiles/project.dir/Thirdparty/src/gl.c.obj: C:/Users/sw_306/Desktop/testing/test/Thirdparty/src/gl.c
 CMakeFiles/project.dir/Thirdparty/src/gl.c.obj: CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/project.dir/Thirdparty/src/gl.c.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/project.dir/Thirdparty/src/gl.c.obj -MF CMakeFiles\project.dir\Thirdparty\src\gl.c.obj.d -o CMakeFiles\project.dir\Thirdparty\src\gl.c.obj -c C:\Users\user\Desktop\test\test\Thirdparty\src\gl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/project.dir/Thirdparty/src/gl.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/project.dir/Thirdparty/src/gl.c.obj -MF CMakeFiles\project.dir\Thirdparty\src\gl.c.obj.d -o CMakeFiles\project.dir\Thirdparty\src\gl.c.obj -c C:\Users\sw_306\Desktop\testing\test\Thirdparty\src\gl.c
 
 CMakeFiles/project.dir/Thirdparty/src/gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/project.dir/Thirdparty/src/gl.c.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\Desktop\test\test\Thirdparty\src\gl.c > CMakeFiles\project.dir\Thirdparty\src\gl.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sw_306\Desktop\testing\test\Thirdparty\src\gl.c > CMakeFiles\project.dir\Thirdparty\src\gl.c.i
 
 CMakeFiles/project.dir/Thirdparty/src/gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/project.dir/Thirdparty/src/gl.c.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\Desktop\test\test\Thirdparty\src\gl.c -o CMakeFiles\project.dir\Thirdparty\src\gl.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sw_306\Desktop\testing\test\Thirdparty\src\gl.c -o CMakeFiles\project.dir\Thirdparty\src\gl.c.s
 
 # Object files for target project
 project_OBJECTS = \
@@ -317,14 +317,14 @@ project.exe: CMakeFiles/project.dir/test/testing.cpp.obj
 project.exe: CMakeFiles/project.dir/Thirdparty/src/gl.c.obj
 project.exe: CMakeFiles/project.dir/build.make
 project.exe: Thirdparty/glfw/src/libglfw3.a
-project.exe: C:/Users/user/Desktop/test/test/Thirdparty/libs/libassimp.dll.a
+project.exe: C:/Users/sw_306/Desktop/testing/test/Thirdparty/libs/libassimp.dll.a
 project.exe: CMakeFiles/project.dir/linkLibs.rsp
 project.exe: CMakeFiles/project.dir/objects1.rsp
 project.exe: CMakeFiles/project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\user\Desktop\test\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\project.dir\link.txt --verbose=$(VERBOSE)
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/user/Desktop/test/test/Thirdparty/libs/libassimp-6.dll C:/Users/user/Desktop/test/test/build
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/user/Desktop/test/test/resources C:/Users/user/Desktop/test/test/build/resources
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/sw_306/Desktop/testing/test/Thirdparty/libs/libassimp-6.dll C:/Users/sw_306/Desktop/testing/test/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/sw_306/Desktop/testing/test/resources C:/Users/sw_306/Desktop/testing/test/build/resources
 
 # Rule to build all files generated by this target.
 CMakeFiles/project.dir/build: project.exe
@@ -335,6 +335,6 @@ CMakeFiles/project.dir/clean:
 .PHONY : CMakeFiles/project.dir/clean
 
 CMakeFiles/project.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\user\Desktop\test\test C:\Users\user\Desktop\test\test C:\Users\user\Desktop\test\test\build C:\Users\user\Desktop\test\test\build C:\Users\user\Desktop\test\test\build\CMakeFiles\project.dir\DependInfo.cmake "--color=$(COLOR)" project
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\sw_306\Desktop\testing\test C:\Users\sw_306\Desktop\testing\test C:\Users\sw_306\Desktop\testing\test\build C:\Users\sw_306\Desktop\testing\test\build C:\Users\sw_306\Desktop\testing\test\build\CMakeFiles\project.dir\DependInfo.cmake "--color=$(COLOR)" project
 .PHONY : CMakeFiles/project.dir/depend
 
