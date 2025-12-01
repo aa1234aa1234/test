@@ -13,6 +13,7 @@ void Game::Initialize() {
 			};
 			SystemCoordinator::getInstance()->AddComponent(cells[i][j], icon);
 			SystemCoordinator::getInstance()->AddComponent(cells[i][j], PositionComponent{glm::vec2(i,j)});
+			//add non renderable bounding box here for some reason or remove from system
 			ClickableComponent component = {glm::vec4(i*CELL_SIZE, j*CELL_SIZE, CELL_SIZE, CELL_SIZE), [this](EntityID entity) {
 				
 				auto& pos = SystemCoordinator::getInstance()->GetComponent<PositionComponent>(entity);
@@ -32,4 +33,6 @@ void Game::render() {
 }
 
 void Game::checkCells(int x, int y) {
+	std::cout << "test" << std::endl;
+	SystemCoordinator::getInstance()->GetComponent<RenderableIcon>(cells[(int)pos.position.x][(int)pos.position.y]).uvRect = GetUV(1);
 }

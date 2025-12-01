@@ -80,6 +80,7 @@ public:
             inputEvent[6].size() ? inputEvent[6].back() : InputEvent()
         };
     }
+	void initialize();
     void render();
     void update(float deltatime);
     void handleInput(float deltatime);

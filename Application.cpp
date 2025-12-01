@@ -55,14 +55,17 @@ void Application::error_callback(void* user_data, int error, const char* descrip
 Application::Application()
 {
     //root.addSceneNode(node);
-	int width = 1200;
-	int height = 900;
-	game = new Game(width,height);
 }
 
 Application::~Application()
 {
+	delete game;
+}
 
+void Application::initialize() {
+	int width = 1200;
+	int height = 900;
+	game = new Game(width,height);
 }
 
 void Application::setCallBack(GLFWwindow* window)

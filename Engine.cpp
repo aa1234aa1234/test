@@ -22,6 +22,7 @@ Engine::Engine(Application* app, const int& width, const int& height, const std:
 
     eventDispatcher = new EventDispatcher();
     application->setCallBack(window.getWindow());
+	application->initialize();
     sceneBuffer = new FrameBuffer(screenWidth,screenHeight);
 
 
