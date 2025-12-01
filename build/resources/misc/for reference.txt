@@ -1,0 +1,2 @@
+https://www.reddit.com/r/gamedev/comments/ngw0pv/my_custom_game_engine_written_in_c_and_opengl/
+https://github.com/kaktusas2598/Villain/tree/main
