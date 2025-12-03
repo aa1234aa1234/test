@@ -103,8 +103,8 @@ void Application::update(float deltatime)
 }
 
 void Application::popEvent() {
-    for (int i = 0; i<inputEvent.size(); i++) {
-        if (inputEvent[i].size()) inputEvent[i].pop();
+    for (auto& p : inputEvent) {
+        if (p.second.size()) p.second.pop();
     }
 }
 

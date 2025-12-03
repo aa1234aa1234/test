@@ -15,7 +15,7 @@ class InputEvent
 public:
     InputEvent() {}
     InputEvent(int key, int eventType) : key(key), eventType(eventType) {}
-    InputEvent(glm::vec2 mousePos, int eventTypei, int mouseType = 0) : mousePos(mousePos), eventType(eventType), mouseType(mouseType) {}
+    InputEvent(glm::vec2 mousePos, int eventType, int mouseType = 0) : mousePos(mousePos), eventType(eventType), mouseType(mouseType) {}
     InputEvent(glm::vec2 mousePos, glm::vec2 mouseDelta, int eventType, int mouseType = 0) : mousePos(mousePos), mouseDelta(mouseDelta), eventType(eventType), mouseType(mouseType) {}
     InputEvent(double x, double y, int eventType) : xoffset(x), yoffset(y), eventType(eventType) {}
     ~InputEvent() {}

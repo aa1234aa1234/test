@@ -2,12 +2,14 @@
 #include "SystemCoordinator.h"
 #include "IconRenderSystem.h"
 #include "ClickSystem.h"
-#define CELL_SIZE 35
+#define CELL_SIZE 20
+#define BOMBCOUNT 99
 
 
 struct CellComponent {
-	int tileid = 0;
+	int tileid = 1;
 	bool isRevealed = false;
+	bool isFlagged = false;
 };
 
 class Game {
@@ -15,6 +17,9 @@ class Game {
 	IconRenderSystem* iconrenderer;
 	ClickSystem* clicksystem;
 	glm::vec2 lastclick;
+	std::vector<std::pair<int,int>> bombLocation;
+	std::map<std::pair<int,int>, bool> flaggedLocations;
+	int revealedCells;
 
 	enum TileInfo {
 		DEFAULT,
@@ -23,6 +28,11 @@ class Game {
 		FLAG,
 		NUM
 	};
+	template<typename T>
+	inline T& GetComponent(int x, int y) {
+		return SystemCoordinator::getInstance()->GetComponent<T>(cells[x][y]);
+	}
+	void setUpBombs();
 public:
 	Game(int& width, int& height) {
 		SystemCoordinator::getInstance()->RegisterComponent<TransformComponent>();
@@ -58,4 +68,6 @@ public:
 	void revealCells(int x, int y);
 	void checkCells(int x, int y);
 	void setFlag(int x, int y);
+	void revealCell(int x, int y);
+	void gameOver(int x, int y);
 };

@@ -61,15 +61,17 @@ void Engine::run()
         application->pollInputEvent(event);
 
         //------------           please refactor this holy shit           ---------------------
-        // handleInput(deltatime,event.keyDown);
-        // handleInput(deltatime,event.keyUp);
-        // handleInput(deltatime,event.scroll);
+        handleInput(deltatime,event.keyDown);
+        handleInput(deltatime,event.keyUp);
+        handleInput(deltatime,event.scroll);
         handleInput(deltatime,event.mouseDown);
-        // handleInput(deltatime,event.mouseUp);
-        // handleInput(deltatime,event.mouseDrag);
-        // handleInput(deltatime,event.mouseMove);
+        handleInput(deltatime,event.mouseUp);
+        handleInput(deltatime,event.mouseDrag);
+        handleInput(deltatime,event.mouseMove);
+
         application->handleInput(deltatime);
         application->update(deltatime);
+
         render(deltatime);
 
         Input::getInstance()->setEvent(-1);
@@ -112,6 +114,7 @@ void Engine::handleInput(float deltatime, InputEvent event)
             Input::getInstance()->setMousePos(event.getMousePos());
             Input::getInstance()->setKeyDown(LEFT_MOUSE_BUTTON + event.getMouseType(), event.isActive());
 			Input::getInstance()->setMouseType(event.getMouseType());
+            std::cout << Input::getInstance()->getEventType()[Input::EventType::MOUSE_DOWN] << std::endl;
             if (event.isActive())
             {
                 MouseEvent mouseEvent = MouseEvent(event.getMousePos(), event.getMouseDelta(), MouseEvent::MouseEventType::MOUSEDOWN, event.getMouseType());
