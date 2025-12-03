@@ -41,7 +41,7 @@ public:
             if ((entitySignature & signatures[p.first]) == signatures[p.first])
             {
                 p.second->entities.insert(entity);
-                std::cout << p.first << " " << p.second->entities.size() << " entities size" << std::endl;
+                //std::cout << p.first << " " << p.second->entities.size() << " entities size" << std::endl;
             }
             else { p.second->entities.erase(entity); }
         }

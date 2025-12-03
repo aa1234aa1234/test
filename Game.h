@@ -2,6 +2,7 @@
 #include "SystemCoordinator.h"
 #include "IconRenderSystem.h"
 #include "ClickSystem.h"
+#include <queue>
 #define CELL_SIZE 20
 #define BOMBCOUNT 99
 
@@ -19,6 +20,7 @@ class Game {
 	glm::vec2 lastclick;
 	std::vector<std::pair<int,int>> bombLocation;
 	std::map<std::pair<int,int>, bool> flaggedLocations;
+	std::vector<std::pair<int,int>> buffer;
 	int revealedCells;
 
 	enum TileInfo {
@@ -33,6 +35,7 @@ class Game {
 		return SystemCoordinator::getInstance()->GetComponent<T>(cells[x][y]);
 	}
 	void setUpBombs();
+	void click(int x, int y);
 public:
 	Game(int& width, int& height) {
 		SystemCoordinator::getInstance()->RegisterComponent<TransformComponent>();

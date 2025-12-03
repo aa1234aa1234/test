@@ -1,6 +1,5 @@
 #include "Game.h"
 #include "Components.hpp"
-#include <queue>
 #include <random>
 #include <algorithm>
 
@@ -75,7 +74,7 @@ void Game::render() {
 void Game::revealCells(int x, int y) {
 	auto sc = SystemCoordinator::getInstance();
 	auto& cell = sc->GetComponent<CellComponent>(cells[x][y]);
-	if(cell.isRevealed || cell.isFlagged) return;
+	//if(cell.isRevealed || cell.isFlagged) return;
 	std::queue<std::pair<int,int>> q;
 	int dx[8] = {1,0,-1,0,-1,1,-1,1}, dy[8] = {0,1,0,-1,-1,-1,1,1};
 	q.push({x,y});
@@ -87,6 +86,7 @@ void Game::revealCells(int x, int y) {
 			int yy = p.second+dy[i];
 			if (!isSafe(xx,yy)) continue;
 			auto& c = GetComponent<CellComponent>(xx,yy);
+			if(c.tileid == 11 && !c.isFlagged) gameOver(xx,yy);
 			if(!c.isRevealed && c.tileid != 11) {
 				revealCell(xx,yy);
 				if (c.tileid < 2) q.push({xx,yy});
@@ -96,19 +96,51 @@ void Game::revealCells(int x, int y) {
 }
 
 void Game::revealCell(int x, int y) {
-	int dx[8] = {1,0,-1,0,-1,1,-1,1}, dy[8] = {0,1,0,-1,-1,-1,1,1};
-	int flagcnt=0;
-	for(int i = 0; i<8; i++) {
-		int xx = x+dx[i];
-		int yy = y+dy[i];
-		if(!isSafe(xx,yy)) continue;
-		auto& cell = GetComponent<CellComponent>(xx,yy);
-		if(cell.isFlagged) flagcnt++;
-	}
+
 	auto& c = GetComponent<CellComponent>(x,y);
-	GetComponent<RenderableIcon>(x,y).uvRect = GetUV(c.tileid);
-	c.isRevealed = true;
-	revealedCells++;
+	if (c.isRevealed) {
+		int dx[8] = {1,0,-1,0,-1,1,-1,1}, dy[8] = {0,1,0,-1,-1,-1,1,1};
+		int flagcnt=0;
+		for(int i = 0; i<8; i++) {
+			int xx = x+dx[i];
+			int yy = y+dy[i];
+			if(!isSafe(xx,yy)) continue;
+			auto& cell = GetComponent<CellComponent>(xx,yy);
+			if(cell.isFlagged) flagcnt++;
+			else if (!cell.isRevealed) {
+				buffer.push_back({xx,yy});
+				GetComponent<RenderableIcon>(xx,yy).uvRect = GetUV(1);
+			}
+		}
+		if(flagcnt && flagcnt == c.tileid-1) {
+			revealCells(x,y);
+		}
+	}
+	else {
+		GetComponent<RenderableIcon>(x,y).uvRect = GetUV(c.tileid);
+		c.isRevealed = true;
+		revealedCells++;
+	}
+
+}
+
+void Game::click(int x, int y) {
+	if (GetComponent<CellComponent>(x,y).isRevealed) {
+		auto& c = GetComponent<CellComponent>(x,y);
+		int dx[8] = {1,0,-1,0,-1,1,-1,1}, dy[8] = {0,1,0,-1,-1,-1,1,1};
+		for(int i = 0; i<8; i++) {
+			int xx = x+dx[i];
+			int yy = y+dy[i];
+			if(!isSafe(xx,yy)) continue;
+			auto& cell = GetComponent<CellComponent>(xx,yy);
+			if (!cell.isFlagged && !cell.isRevealed) {
+				buffer.push_back({xx,yy});
+				GetComponent<RenderableIcon>(xx,yy).uvRect = GetUV(1);
+			}
+		}
+	}
+	else GetComponent<RenderableIcon>(x,y).uvRect = GetComponent<CellComponent>(x,y).isRevealed ? GetUV(GetComponent<CellComponent>(x,y).tileid) : GetUV(1);
+	lastclick = glm::vec2(x,y);
 }
 
 void Game::setFlag(int x, int y) {
@@ -145,12 +177,15 @@ void Game::checkCells(int x, int y) {
 	if(Input::getInstance()->getEventType()[Input::EventType::MOUSE_DRAG]) {
 		auto& cell = sc->GetComponent<CellComponent>(cells[(int)lastclick.x][(int)lastclick.y]);
 		sc->GetComponent<RenderableIcon>(cells[(int)lastclick.x][(int)lastclick.y]).uvRect = cell.isRevealed ? GetUV(cell.tileid) : GetUV(0);
+		for (std::vector<std::pair<int,int>>::iterator it = buffer.end(); it != buffer.begin(); --it) {
+			GetComponent<RenderableIcon>((*it).first, (*it).second).uvRect = GetUV(0);
+			buffer.erase(it, buffer.end());
+		}
 	}
 	if(Input::getInstance()->getMouseType())  {
 		setFlag(x,y);
 		return;
 	}
 	if(sc->GetComponent<CellComponent>(cells[x][y]).isRevealed || sc->GetComponent<CellComponent>(cells[x][y]).isFlagged) return;
-	sc->GetComponent<RenderableIcon>(cells[(int)x][(int)y]).uvRect = sc->GetComponent<CellComponent>(cells[x][y]).isRevealed ? GetUV(sc->GetComponent<CellComponent>(cells[x][y]).tileid) : GetUV(1);
-	lastclick = glm::vec2(x,y);
+	click(x,y);
 }
