@@ -1,1 +1,1 @@
--IC:/Users/sw_306/Desktop/testing/test/Thirdparty/includes -IC:/Users/sw_306/Desktop/testing/test/ecs -IC:/Users/sw_306/Desktop/testing/test/ecs/Components -IC:/Users/sw_306/Desktop/testing/test/ecs/Systems -IC:/Users/sw_306/Desktop/testing/test -IC:/Users/sw_306/Desktop/testing/test/Thirdparty/glfw/include
+-ID:/.coding/test/test/Thirdparty/includes -ID:/.coding/test/test/ecs -ID:/.coding/test/test/ecs/Components -ID:/.coding/test/test/ecs/Systems -ID:/.coding/test/test -ID:/.coding/test/test/Thirdparty/glfw/include

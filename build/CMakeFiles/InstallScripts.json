@@ -1,10 +1,10 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/sw_306/Desktop/testing/test/build/cmake_install.cmake",
-		"C:/Users/sw_306/Desktop/testing/test/build/Thirdparty/glfw/cmake_install.cmake",
-		"C:/Users/sw_306/Desktop/testing/test/build/Thirdparty/glfw/src/cmake_install.cmake",
-		"C:/Users/sw_306/Desktop/testing/test/build/Thirdparty/glfw/docs/cmake_install.cmake"
+		"D:/.coding/test/test/build/cmake_install.cmake",
+		"D:/.coding/test/test/build/Thirdparty/glfw/cmake_install.cmake",
+		"D:/.coding/test/test/build/Thirdparty/glfw/src/cmake_install.cmake",
+		"D:/.coding/test/test/build/Thirdparty/glfw/docs/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

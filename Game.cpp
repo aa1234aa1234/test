@@ -50,17 +50,18 @@ void Game::setUpBombs() {
 	fill(a.begin(),a.end(),0);
 	std::random_device rdev;
 	std::mt19937 rgen(rdev());
-	std::uniform_int_distribution<int> idist(0,479);
+
 	for(int i = 0; i<BOMBCOUNT; i++) a[i] = 1;
-	for(int i = 0; i<BOMBCOUNT; i++) {
+	for(int i = a.size() -1; i>0; i--) {
+		std::uniform_int_distribution<int> idist(0,i);
 		int x = idist(rgen);
-		while(a[x]) x = idist(rgen);
 		std::swap(a[i],a[x]);
 	}
 	for(int i = 0; i<16; i++) {
-		for(int j = 0; j<30; j++) { std::cout << a[(i+1)*(j+1)-1] << ' '; if(a[(i+1)*(j+1)-1]) { GetComponent<CellComponent>(j,i).tileid = 11; bombLocation.push_back({j,i}); }}
+		for(int j = 0; j<30; j++) { std::cout << a[i*30+j] << ' '; if(a[i*30+j]) { GetComponent<CellComponent>(j,i).tileid = 11; bombLocation.push_back({j,i}); }}
 		std::cout << std::endl;
 	}
+	std::cout << bombLocation.size() << std::endl;
 }
 
 void Game::update() {
@@ -114,6 +115,9 @@ void Game::revealCell(int x, int y) {
 		}
 		if(flagcnt && flagcnt == c.tileid-1) {
 			revealCells(x,y);
+		}
+		else {
+			thing();
 		}
 	}
 	else {
@@ -177,15 +181,12 @@ void Game::checkCells(int x, int y) {
 	if(Input::getInstance()->getEventType()[Input::EventType::MOUSE_DRAG]) {
 		auto& cell = sc->GetComponent<CellComponent>(cells[(int)lastclick.x][(int)lastclick.y]);
 		sc->GetComponent<RenderableIcon>(cells[(int)lastclick.x][(int)lastclick.y]).uvRect = cell.isRevealed ? GetUV(cell.tileid) : GetUV(0);
-		for (std::vector<std::pair<int,int>>::iterator it = buffer.end(); it != buffer.begin(); --it) {
-			GetComponent<RenderableIcon>((*it).first, (*it).second).uvRect = GetUV(0);
-			buffer.erase(it, buffer.end());
-		}
+		thing();
 	}
 	if(Input::getInstance()->getMouseType())  {
 		setFlag(x,y);
 		return;
 	}
-	if(sc->GetComponent<CellComponent>(cells[x][y]).isRevealed || sc->GetComponent<CellComponent>(cells[x][y]).isFlagged) return;
+	if(sc->GetComponent<CellComponent>(cells[x][y]).isFlagged) return;
 	click(x,y);
 }

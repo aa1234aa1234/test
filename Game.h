@@ -36,6 +36,13 @@ class Game {
 	}
 	void setUpBombs();
 	void click(int x, int y);
+
+	void thing() {
+		for (std::vector<std::pair<int,int>>::reverse_iterator it = buffer.rbegin(); it != buffer.rend(); ++it) {
+			if (!GetComponent<CellComponent>((*it).first, (*it).second).isRevealed) GetComponent<RenderableIcon>((*it).first, (*it).second).uvRect = GetUV(0);
+			buffer.pop_back();
+		}
+	}
 public:
 	Game(int& width, int& height) {
 		SystemCoordinator::getInstance()->RegisterComponent<TransformComponent>();
